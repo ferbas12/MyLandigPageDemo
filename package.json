@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d src"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://gist.github.com/9a0b1e97ddfceb317c1c4b5b3ba6f971"
   },
-  "homepage": "https://gist.github.com/9a0b1e97ddfceb317c1c4b5b3ba6f971"
+  "homepage": "https://gist.github.com/9a0b1e97ddfceb317c1c4b5b3ba6f971",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
